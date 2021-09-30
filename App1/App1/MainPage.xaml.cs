@@ -23,7 +23,6 @@ namespace App1
             DependencyService.Get<IMessage>().ShortAlert("Inicia Chamada");
             DependencyService.Get<ILogin>().SigninButton_Click();
 
-            DependencyService.Get<IMessage>().ShortAlert("Logado com o e-mail: "+Models.GoogleInfo.mailFromGoogle);
         }
     }
 }

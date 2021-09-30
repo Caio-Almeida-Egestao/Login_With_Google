@@ -99,6 +99,7 @@ namespace App1.Droid
                 {
                     GoogleSignInAccount account = result.SignInAccount;
                     LoginWithFirebase(account);
+
                 }
             }
         }
@@ -114,8 +115,7 @@ namespace App1.Droid
             //displayNameText.Text = "Display Name: " + firebaseAuth.CurrentUser.DisplayName;
             //emailText.Text = "Email: " + firebaseAuth.CurrentUser.Email;
             //photourlText.Text = "Photo URL: " + firebaseAuth.CurrentUser.PhotoUrl.Path;
-            App1.Models.GoogleInfo.mailFromGoogle = firebaseAuth.CurrentUser.Email;
-            Toast.MakeText(this, "Login successful", ToastLength.Short).Show();
+            Toast.MakeText(this, "Login successful"+ firebaseAuth.CurrentUser.Email, ToastLength.Short).Show();
         }
 
         public void OnFailure(Java.Lang.Exception e)
