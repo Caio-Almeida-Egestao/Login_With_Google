@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "177259958250",
+    "project_id": "bepprice-d1c34",
+    "storage_bucket": "bepprice-d1c34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177259958250:android:cb996f94612b8819516c93",
+        "android_client_info": {
+          "package_name": "com.companyname.BepPrice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177259958250-cannk1trvpthrluum19cn5r1cnobvgg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.BepPrice",
+            "certificate_hash": "c031fe6a13fba0f7f20987581b9e9eda2791b4c7"
+          }
+        },
+        {
+          "client_id": "177259958250-pgdselr0gaco8tuu81hkpvc1qmii73bt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1JxRYM7Y6wZLlIOnfNyQOZWN8AuZSrnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177259958250-pgdselr0gaco8tuu81hkpvc1qmii73bt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
